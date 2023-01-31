@@ -1,0 +1,105 @@
+---
+title: 配送
+layout: ./app/layout.ejs
+engine: ejs
+current: delivery
+---
+
+
+<section class="lg:flex lg:justify-center lg:mr-[-3%] lg:mb-8">
+   <section class="">
+         <section class="bg-[#3F5D45] p-10 text-white  mx-auto">
+            <!-- 運送跟進度條 -->
+            <section class="flex items-baseline justify-between">
+               <section class="text-[26px]">運送</section>
+               <section class="w-[153px]"><img src="./assets/images/bar_delivery.svg" alt=""></section>
+            </section>
+            <!-- 基本資料 -->
+            <section class="flex justify-between">
+               <section class="mt-[40px]">
+                  <h6>姓氏</h6>
+                  <input type="text" placeholder="王" class="text-[#3F5D45] py-2 mt-2 placeholder:pl-3 lg:w-[96%]">
+               </section>
+               <section class="mt-[40px]">
+                  <h6>名字</h6>
+                  <input type="text" placeholder="小明" class="text-[#3F5D45] py-2 mt-2 placeholder:pl-3">
+               </section>
+            </section>
+            <section class="mt-[20px]">
+               <h6>電話</h6>
+               <input type="tel" placeholder="0912-345-678" class="w-full text-[#3F5D45] py-2 mt-2 placeholder:pl-3">
+            </section>
+            <section class="mt-[20px]">
+               <h6>地址</h6>
+            </section>
+            <section class="flex justify-between text-[#3F5D45]">
+               <section class="mt-[10px] w-[49%]" >
+                  <select name="" id="" class="py-2 w-full pl-2">
+                     <option value="" selected>高雄市</option>
+                     <option value="">台北市</option>
+                     <option value="">台中市</option>
+                  </select>
+               </section>
+               <section class="mt-[10px] w-[49%]">
+                  <select name="" id="" class="py-2 w-full pl-2">
+                     <option value="">三民區</option>
+                     <option value="" selected>左營區</option>
+                     <option value="">前鎮區</option>
+                  </select>
+               </section>
+            </section>
+            <input type="address" placeholder="發大財路666號" class="w-full text-[#3F5D45] py-2 mt-2 placeholder:pl-3">
+
+         </section>
+
+         <a href="pay.html">
+         <button type="submit" class="text-center w-full  text-[#3F5D45] bg-[#FFE180] p-4 text-[18px] font-bold">下一步</button>
+         </a>
+      </section>
+
+
+   
+      <section class="hidden lg:block lg:w-[30%]   lg:text-[#8DA291] bg-white">
+         <section class="w-[80%] mx-auto py-10 lg:py-2 lg:bg-white  border border-[#dee2e6]">
+         <section class="bg-[#EAF0ED] text-center  font-bold text-[24px] lg:bg-[#EAF0ED] mt-[-8px] py-2">訂單摘要</section>
+               <section class=" bg-white lg:px-8">
+                  <section class="mt-4 flex justify-between  text-[18px]"><p class="">小計</p><p class="">NT$2700</p></section>
+                  <section class="mt-4 flex justify-between  text-[18px]"><p class="">運費</p><p class="">NT$300</p></section>
+                  <section class="mt-6 flex justify-between  text-[22px] font-bold"><p class="">總計</p><p class="">NT$3000</p></section>
+               </section>
+            </section>
+         <section class="w-[80%] mx-auto py-10 lg:py-2 lg:bg-white  border border-[#dee2e6] mt-4">
+            <section class="bg-[#EAF0ED] text-center  font-bold text-[24px] lg:bg-[#EAF0ED] mt-[-8px] py-2">購物清單</section>
+               <section class=" bg-white lg:px-8 py-2">
+                  <section class="flex justify-between">
+                     <section class="w-[150px] h-[90px] overflow-hidden mt-2"><img src="./assets/images/p-5.png" alt=""></section>
+                     <div class="text-[#8DA291] items-center h-[40px] mt-[20px] ml-5">
+                        <p class="font-light text-[17px]">焦糖馬卡龍(2)</p>
+                        <p class="text-[20px] font-bold">NT$450</p>
+                      </div>  
+                  </section>
+                  <section class="flex justify-between my-4 ">
+                     <section class="w-[150px] h-[90px] overflow-hidden "><img src="./assets/images/p-6.png" alt=""></section>
+                     <div class="text-[#8DA291] items-center h-[40px] mt-[20px] ml-5 ">
+                        <p class="font-light text-[17px]">焦糖馬卡龍(2)</p>
+                        <p class="text-[20px] font-bold">NT$450</p>
+                      </div>  
+                  </section>
+
+                  <section class="flex justify-between">
+                     <section class="w-[150px] h-[90px] overflow-hidden "><img src="./assets/images/p-3.png" alt=""></section>
+                     <div class="text-[#8DA291] items-center h-[40px] mt-[20px] ml-5">
+                        <p class="font-light text-[17px]">焦糖馬卡龍(2)</p>
+                        <p class="text-[20px] font-bold">NT$450</p>
+                      </div>  
+                  </section>
+               </section>
+            </section>
+      </section>
+      
+      
+
+ 
+
+
+</section>

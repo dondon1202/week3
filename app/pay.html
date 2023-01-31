@@ -1,0 +1,130 @@
+---
+title: 支付
+layout: ./app/layout.ejs
+engine: ejs
+current: pay
+---
+
+
+<section class="lg:flex lg:justify-center lg:mr-[-3%] lg:mb-8">
+   <section class="">
+         <section class="bg-[#3F5D45] p-10 text-white  mx-auto">
+            <!-- 運送跟進度條 -->
+            <section class="flex items-baseline justify-between ">
+               <section class="text-[26px]">付款</section>
+               <section class="w-[153px]"><img src="./assets/images/bar_payment.svg" alt=""></section>
+            </section>
+            <section class="mt-[40px]">
+               <h6>信用卡卡號</h6>
+               <section class="flex text-[#3F5D45] items-center bg-white mt-2">
+                  <input type="tel" placeholder="1324-5879-5547-3684" class="w-full text-[#3F5D45]  py-2 mt-2 placeholder:pl-3 bg-white">
+                  <i class="fa-solid fa-credit-card   p-2"></i>
+               </section>
+            </section>
+            <!-- 基本資料 -->
+            <section class="mt-[20px]">
+               <h6>持卡人姓名</h6>
+               <section class="flex justify-between">
+                  <section class="">
+                     
+                     <input type="text" placeholder="王" class="text-[#3F5D45] py-2 mt-2 placeholder:pl-3 lg:w-[96%]">
+                  </section>
+                  <section class="">
+                     
+                     <input type="text" placeholder="小明" class="text-[#3F5D45] py-2 mt-2 placeholder:pl-3">
+                  </section>
+               </section>
+            </section>
+
+
+            <section class="flex justify-between text-[#3F5D45]">
+               <section class="mt-[20px]  w-[49%]">
+                  <h6 class="text-white">有效期限</h6>
+                  <section class="mt-[10px]" >
+                     <select name="" id="" class="py-2 w-full pl-2">
+                        <option value="" selected>1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                     </select>
+                  </section>
+               </section>
+               <section class="mt-[45px]  w-[49%]">
+                  <h6 class="text-white hidden">有效期限</h6>
+                  <section class="mt-[10px]">
+                     <select name="" id="" class="py-2 w-full pl-2">
+                        <option value=""selected>2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                     </select>
+                  </section>
+               </section>
+            </section>
+            <section class="mt-[20px]">
+               <h6>背面末三碼</h6>
+               <input type="tel" placeholder="999" class="text-[#3F5D45] py-2 mt-2 placeholder:pl-3 w-[49%]">
+            </section>
+
+         </section>
+
+         <a href="bill.html">
+         <button type="submit" class="text-center w-full  text-[#3F5D45] bg-[#FFE180] p-4 text-[18px] font-bold">下一步</button>
+         </a>
+      </section>
+
+
+   
+      <section class="hidden lg:block lg:w-[30%]   lg:text-[#8DA291] bg-white">
+         <section class="w-[80%] mx-auto py-10 lg:py-2 lg:bg-white  border border-[#dee2e6]">
+         <section class="bg-[#EAF0ED] text-center  font-bold text-[24px] lg:bg-[#EAF0ED] mt-[-8px] py-2">訂單摘要</section>
+               <section class=" bg-white lg:px-8">
+                  <section class="mt-4 flex justify-between  text-[18px]"><p class="">小計</p><p class="">NT$2700</p></section>
+                  <section class="mt-4 flex justify-between  text-[18px]"><p class="">運費</p><p class="">NT$300</p></section>
+                  <section class="mt-6 flex justify-between  text-[22px] font-bold"><p class="">總計</p><p class="">NT$3000</p></section>
+               </section>
+            </section>
+         <section class="w-[80%] mx-auto py-10 lg:py-2 lg:bg-white  border border-[#dee2e6] mt-4">
+            <section class="bg-[#EAF0ED] text-center  font-bold text-[24px] lg:bg-[#EAF0ED] mt-[-8px] py-2">購物清單</section>
+               <section class=" bg-white lg:px-8 py-2">
+                  <section class="flex justify-between">
+                     <section class="w-[150px] h-[90px] overflow-hidden mt-2"><img src="./assets/images/p-5.png" alt=""></section>
+                     <div class="text-[#8DA291] items-center h-[40px] mt-[20px] ml-5">
+                        <p class="font-light text-[17px]">焦糖馬卡龍(2)</p>
+                        <p class="text-[20px] font-bold">NT$450</p>
+                      </div>  
+                  </section>
+                  <section class="flex justify-between my-4 ">
+                     <section class="w-[150px] h-[90px] overflow-hidden "><img src="./assets/images/p-6.png" alt=""></section>
+                     <div class="text-[#8DA291] items-center h-[40px] mt-[20px] ml-5 ">
+                        <p class="font-light text-[17px]">焦糖馬卡龍(2)</p>
+                        <p class="text-[20px] font-bold">NT$450</p>
+                      </div>  
+                  </section>
+
+                  <section class="flex justify-between">
+                     <section class="w-[150px] h-[90px] overflow-hidden "><img src="./assets/images/p-3.png" alt=""></section>
+                     <div class="text-[#8DA291] items-center h-[40px] mt-[20px] ml-5">
+                        <p class="font-light text-[17px]">焦糖馬卡龍(2)</p>
+                        <p class="text-[20px] font-bold">NT$450</p>
+                      </div>  
+                  </section>
+               </section>
+            </section>
+      </section>
+      
+      
+
+ 
+
+
+</section>
