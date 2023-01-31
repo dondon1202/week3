@@ -773,6 +773,9 @@ video {
 .w-\[48\%\] {
   width: 48%;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
